@@ -1,9 +1,17 @@
-import "./App.css";
+import { CssBaseline } from "@mui/material";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./scenes/home";
 
 function App() {
   return (
     <div className="App">
-      <h2>Youtube to MP3</h2>
+      <BrowserRouter>
+        <CssBaseline>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </CssBaseline>
+      </BrowserRouter>
     </div>
   );
 }
