@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 905.85263 187.15706">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.014em;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        font-family: Manrope-Light, Manrope;
+        font-variation-settings: 'wght' 300;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        font-family: Manrope-Bold, Manrope;
+        font-variation-settings: 'wght' 700;
+      }
+
+      .cls-5, .cls-4 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-2, .cls-9 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3, .cls-8 {
+        letter-spacing: -.015em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.014em;
+      }
+
+      .cls-10 {
+        fill: #fff;
+        font-size: 166.61084px;
+      }
+
+      .cls-7 {
+        letter-spacing: -.023em;
+      }
+
+      .cls-11 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 9.8px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-10" transform="translate(-.0002 143.28558)"><tspan class="cls-6" x="0" y="0">m</tspan><tspan class="cls-8" x="147.44824" y="0">e</tspan><tspan class="cls-7" x="245.24707" y="0">d</tspan><tspan class="cls-9" x="344.2124" y="0">i</tspan><tspan class="cls-5" x="387.6123" y="0">a</tspan><tspan class="cls-3" x="481.91211" y="0">h</tspan><tspan class="cls-1" x="576.62988" y="0">o</tspan><tspan class="cls-2" x="671.42969" y="0">o</tspan><tspan class="cls-4" x="765.23047" y="0">k</tspan></text>
+      <path class="cls-11" d="M836.59652,139.03817l22.49312,19.6223s79.58012,75.83883,19.29736-44.40452c0,0,3.41883,18.99505-3.4908,26.83536"/>
+    </g>
+  </g>
+</svg>

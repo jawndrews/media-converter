@@ -14,6 +14,7 @@ import {
 } from "@mui/material";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
+import logo from "../../assets/logotype.png";
 
 const Twitter = () => {
   const isNonMobileScreen = useMediaQuery("(min-width: 1000px)");
@@ -89,14 +90,21 @@ const Twitter = () => {
         id="input-submit"
         width={isNonMobileScreen ? "60%" : "93%"}
       >
-        <Typography
-          mt="1rem"
-          variant="h1"
-          textAlign="center"
-          sx={{ opacity: "1" }}
-        >
-          mediahook
-        </Typography>
+        <Box display="flex" justifyContent="center" alignItems="center">
+          <Box
+            component="img"
+            mt="1rem"
+            alignItems="center"
+            sx={{
+              height: "100%",
+              width: "100%",
+              maxHeight: { xs: 233, md: 167 },
+              maxWidth: { xs: 350, md: 250 },
+            }}
+            alt="mediahook"
+            src={logo}
+          />
+        </Box>
         <Box mt="4rem">
           <Navbar />
         </Box>
@@ -133,7 +141,7 @@ const Twitter = () => {
           size="small"
           id="url-input"
           variant="filled"
-          placeholder="https://soundcloud.com/jonoooh/sins"
+          placeholder="https://twitter.com/Catsillyness/status/1669359509897371651"
           fullWidth
           sx={{
             color: "#ffffff",
