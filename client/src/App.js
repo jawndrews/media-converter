@@ -5,6 +5,7 @@ import Tiktok from "./scenes/tiktok";
 import Instagram from "./scenes/instagram";
 import Soundcloud from "./scenes/soundcloud";
 import Twitter from "./scenes/twitter";
+import { Navigate } from "react-router-dom";
 
 const theme = createTheme({
   typography: {
@@ -44,6 +45,7 @@ function App() {
         <ThemeProvider theme={theme}>
           <CssBaseline>
             <Routes>
+              <Route path="/" element={<Navigate to="/youtube" />} />
               <Route path="/youtube" element={<Youtube />} />
               <Route path="/tiktok" element={<Tiktok />} />
               <Route path="/instagram" element={<Instagram />} />
