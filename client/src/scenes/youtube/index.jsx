@@ -154,12 +154,13 @@ const Youtube = () => {
             variant="contained"
             size="large"
             sx={{
+              textTransform: "lowercase",
               backgroundColor: "#C4302B",
-              p: "0.75rem 1.5rem 0.75rem 1.5rem",
+              p: "0.6rem 1.2rem 0.6rem 1.2rem",
               "&:hover": { backgroundColor: "#DF4A44" },
             }}
           >
-            Convert
+            <Typography fontSize="14px">convert</Typography>
           </Button>
         </Box>
       </Box>

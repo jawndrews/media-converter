@@ -154,12 +154,13 @@ const Instagram = () => {
             variant="contained"
             size="large"
             sx={{
+              textTransform: "lowercase",
               backgroundColor: "#BB2266",
-              p: "0.75rem 1.5rem 0.75rem 1.5rem",
+              p: "0.6rem 1.2rem 0.6rem 1.2rem",
               "&:hover": { backgroundColor: "#D2367B" },
             }}
           >
-            Convert
+            <Typography fontSize="14px">convert</Typography>
           </Button>
         </Box>
       </Box>

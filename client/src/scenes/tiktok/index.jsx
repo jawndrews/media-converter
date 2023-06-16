@@ -154,12 +154,13 @@ const Tiktok = () => {
             variant="contained"
             size="large"
             sx={{
+              textTransform: "lowercase",
               backgroundColor: "#6121B5",
-              p: "0.75rem 1.5rem 0.75rem 1.5rem",
+              p: "0.6rem 1.2rem 0.6rem 1.2rem",
               "&:hover": { backgroundColor: "#7F43CE" },
             }}
           >
-            Convert
+            <Typography fontSize="14px">convert</Typography>
           </Button>
         </Box>
       </Box>

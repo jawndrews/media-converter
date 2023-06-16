@@ -154,12 +154,13 @@ const Soundcloud = () => {
             variant="contained"
             size="large"
             sx={{
+              textTransform: "lowercase",
               backgroundColor: "#E35F12",
-              p: "0.75rem 1.5rem 0.75rem 1.5rem",
+              p: "0.6rem 1.2rem 0.6rem 1.2rem",
               "&:hover": { backgroundColor: "#F0752D" },
             }}
           >
-            Convert
+            <Typography fontSize="14px">convert</Typography>
           </Button>
         </Box>
       </Box>
