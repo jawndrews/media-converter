@@ -1,11 +1,12 @@
 import { CssBaseline, ThemeProvider, createTheme } from "@mui/material";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Navigate } from "react-router-dom";
+
 import Youtube from "./scenes/youtube";
 import Tiktok from "./scenes/tiktok";
 import Instagram from "./scenes/instagram";
 import Soundcloud from "./scenes/soundcloud";
 import Twitter from "./scenes/twitter";
-import { Navigate } from "react-router-dom";
 
 const theme = createTheme({
   typography: {
@@ -46,11 +47,11 @@ function App() {
           <CssBaseline>
             <Routes>
               <Route path="/" element={<Navigate to="/youtube" />} />
-              <Route path="/youtube" element={<Youtube />} />
-              <Route path="/tiktok" element={<Tiktok />} />
-              <Route path="/instagram" element={<Instagram />} />
-              <Route path="/soundcloud" element={<Soundcloud />} />
-              <Route path="/twitter" element={<Twitter />} />
+              <Route path="/yt" element={<Youtube />} />
+              <Route path="/tt" element={<Tiktok />} />
+              <Route path="/ig" element={<Instagram />} />
+              <Route path="/sc" element={<Soundcloud />} />
+              <Route path="/tw" element={<Twitter />} />
             </Routes>
           </CssBaseline>
         </ThemeProvider>
