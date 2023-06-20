@@ -46,7 +46,7 @@ function App() {
         <ThemeProvider theme={theme}>
           <CssBaseline>
             <Routes>
-              <Route path="/" element={<Navigate to="/youtube" />} />
+              <Route path="/" element={<Navigate to="/yt" />} />
               <Route path="/yt" element={<Youtube />} />
               <Route path="/tt" element={<Tiktok />} />
               <Route path="/ig" element={<Instagram />} />
